@@ -170,7 +170,7 @@
     .social_media a {
         height: 25px;
         width: 25px;
-        margin: 3px 0 0;
+        margin: 3px -1px 0;
     }
 
     .banner {
@@ -200,8 +200,8 @@
     }
 
     .banner__screen {
-        width: 399px;
-        height: 324px;
+        width: 400px;
+        height: 371px;
         top: 100px;
         left: 47%;
         transform: scale(1.2);
@@ -264,16 +264,56 @@
         background-position: 50% 50%;
     }
 
-    .marathon {
-        background-image: url(../images/1-1.jpg);
+
+
+    .port1 {
+        width: 365px;
+        height: 227px;
+        top: -3px;
+        left: -1.5px;
     }
 
+    .port2 {
+        width: 364px;
+        height: 387px;
+        top: -3px;
+        left: -4.5px;
+    }
+
+
+    .port3 {
+        width: 364px;
+        height: 435px;
+        top: -9px;
+        left: -1.5px;
+    }
+
+    .port4 {
+        display: none;
+    }
+
+    .port5 {
+        display: none;
+    }
+
+    .port6 {
+        width: 364px;
+        height: 396px;
+        top: -93px;
+        left: -4.5px;
+    }
+
+    .marathon {
+        background-image: url(../img/1-1.jpg);
+    }
+
+
     .trainer {
-        background-image: url(../images/1-3.jpg);
+        background-image: url(../img/1-3.jpg);
     }
 
     .yoga {
-        background-image: url(../images/2222222.jpg);
+        background-image: url(../img/2222222.jpg);
         width: 748px;
         height: 336px;
         left: 40px;
@@ -377,6 +417,7 @@
         color: #010101;
         padding-top: 21px;
         padding-right: 24px;
+        display: none;
     }
 
     .schedule__title {
@@ -385,6 +426,7 @@
         line-height: 19px;
         color: #2B3541;
         padding: 18px 0;
+        display: none;
     }
 
     .schedule__hover {
@@ -393,13 +435,17 @@
 
 
     .subscription {
-        margin-top: 91px;
+        margin-top: -55px;
         padding: 57px 79px 34px;
     }
 
     .h2__subscription {
         text-align: center;
         width: 230px;
+        top: 16px;
+        right: 5px;
+        left: -188px;
+        bottom: 10px;
     }
 
     .h2__subscription .h2 {
@@ -585,7 +631,7 @@
 @media(max-width: 950px) {
     .banner__screen {
         transform: scale(1);
-        top: 120px;
+        top: 16px
     }
 
     .events__grid {
@@ -702,6 +748,7 @@
 
     .schedule__item {
         display: none;
+
     }
 
     .schedule__time {
@@ -912,17 +959,19 @@
     }
 
     .banner__screen {
-        max-width: 340px;
-        height: auto;
+        max-width: 242px;
+        height: 294px;
         top: inherit;
-        bottom: 0;
+        bottom: 3px;
         left: 50%;
-        transform: translateX(-50%);    ;
+        transform: translateX(-50%);
+        ;
         -webkit-transform: translateX(-50%);
         -moz-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
         -o-transform: translateX(-50%);
-}
+
+    }
 
     .banner__arrow img {
         display: none;
@@ -931,7 +980,7 @@
 
 
     .yoga {
-        background-image: url(../images/1-2.jpg);
+        background-image: url(../img/1-2.jpg);
     }
 
     .events__grid {
