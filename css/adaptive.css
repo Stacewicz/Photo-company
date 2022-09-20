@@ -704,9 +704,10 @@
 @media(max-width: 1171px) {
     .yoga {
         width: 800px;
-        height: 376px;
-        left: 140px;
-        width: 62vw;
+        
+    height: 376px;
+    left: 18px;
+    width: 85vw;
 
     }
 }
